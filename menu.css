@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #d2691e; /* Warm brown from the theme */
+    background-color: #d2691e; 
     color: white;
     padding: 20px;
     text-align: center;
@@ -25,7 +25,7 @@ h1, h2 {
 }
 
 .menu h2 {
-    color: #a0522d; /* Medium brown for section headers */
+    color: #a0522d; /
 }
 
 .menu ul {
