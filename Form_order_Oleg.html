@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+
+        <p>We welcome you to the page for ordering the most delicious food:</p>
+
+        <div>
+            What menu would you like to see:
+            <p><input checked type="checkbox" name="type of diet" value="yes">General diet</p>
+            <p><input type="checkbox" name="type of diet" value="yes">Gluten free diet</p>
+            <p><input type="checkbox" name="type of diet" value="yes">Lactose-free diet</p>
+            <p><input type="checkbox" name="type of diet" value="yes">Gluten Free and Lactose Free Diet</p>
+    
+    
+    
+        </div>
+    
+        <div>
+            <p>Are you ordering this to eat in the restaurant or would you like it delivered to you?</p>
+            <p><input type="radio" name="format" value="In the restaurant">In the restaurant          
+               <div><p>Select the date and time you want to book a table:</p>
+            <input type="date" name="data" id="">
+            <input type="datetime" name="data" id="">
+               </div>
+                </p>
+            <p><input type="radio" name="format" value="Delivery">Delivery
+                <div>
+                    <p>Select the date and time when you want your order to be delivered to you:</p>
+                    <input type="date" name="data" id="">
+                    <input type="datetime" name="data" id="">
+                    
+                </div></p>
+        </div>
+    
+    
+    
+        <div>
+            <p>If you are planning to come to our restaurant, please select the additional service you would like (to select multiple services, press and hold the "Ctrl" key):</p>
+            <select multiple name="additional service" id="">
+                <option value="taxi to the restaurant">taxi to the restaurant</option>
+                <option value="taxi from the restaurant">taxi from the restaurant</option>
+                <option value="striptease on the table">striptease on the table</option>
+                <option value="personal bodyguard">personal bodyguard</option>
+                <option value="participation in karaoke">participation in karaoke</option>
+                <option value="order music">order music</option>
+                
+            </select>
+        </div>
+        <br>
+    
+        <div>
+            <p>Please select the payment method:</p>
+            <p><input type="radio" name="payment" value="Cash">Cash</p>
+            <p><input type="radio" name="payment" value="Bank card">Bank card</p>
+            <p><input type="radio" name="payment" value="PayPal">PayPal</p>
+            <p><input type="radio" name="payment" value="Zelle">Zelle</p>
+        </div>
+        <br>
+    
+        <div>
+            <button type="submit">Send</button>
+        </div>
+    
+    </form>
+    
+</body>
+</html>
