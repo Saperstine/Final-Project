@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+
+}
+
+body {
+    height: 100;
+    
+    display: grid;
+    place-items: center;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: beige;
+    overflow: hidden;
+    transition: 2s;
+    background: brown;
+}
+
+a:hover {
+    background: cadetblue;
+    border-radius: 8px;
+    box-shadow: 0 0 5px cadetblue,
+                0 0 25px cadetblue,
+                0 0 50px cadetblue,
+                0 0 80px cadetblue;
+}
+
+a span {
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent,
+    cadetblue);
+    animation: btn1 1s linear infinite;
+    
+}
+
+@keyframes btn1 {
+    0% {
+        left: -100%
+}
+    50%, 100% {left: 100%;}
+    
+}
+
+a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,
+    cadetblue);
+    animation: btn2 1s linear infinite;
+    animation-delay: .25s ;
+    
+}
+
+@keyframes btn2 {
+    0% {
+        top:  -100%
+}
+    50%, 100% {top: 100%;}
+    
+}
+
+a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, transparent,
+    cadetblue);
+    animation: btn3 1s linear infinite;
+    animation-delay: .5s ;
+    
+}
+
+@keyframes btn3 {
+    0% {
+        right: -100%;
+}
+    50%, 100% {right: 100%;}
+    
+}
+
+a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,
+    cadetblue);
+    animation: btn4 1s linear infinite;
+    animation-delay: .75s ;
+    
+}
+
+@keyframes btn4 {
+    0% {
+        bottom: -100%;
+}
+    50%, 100% {bottom: 100%;}
+    
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.google_map {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.one {
+    color: rgb(4, 61, 61);
+    font-size: 60px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+.two {
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(4, 61, 61);
+}
+
+.three {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(4, 71, 80);
+    font-style: italic;
+}
+
+iframe {
+    width: 50vw;
+    height: 55vh;
+}
