@@ -13,6 +13,7 @@ body {
     
     display: grid;
     place-items: center;
+    background-color: black;
 }
 
 a {
@@ -118,4 +119,54 @@ a span:nth-child(4) {
 }
     50%, 100% {bottom: 100%;}
     
+}
+
+.site {
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.but {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+
+
+}
+
+.but1 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+
+}
+.but2 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+
+}
+.but3 {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+
+
+}
+
+.cart {
+    position: absolute; 
+    left: 30px;
+    bottom: 10px; 
+    top: 30px; 
+    color: rgb(15, 15, 15);
+    font-style: italic;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image {
+    margin-top: 270px;
 }

@@ -1,0 +1,41 @@
+body {
+    background: #222;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    margin-left: 20px;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid #888;
+    border-radius: 8px;
+    color: #999;
+    font-size: 17px;
+    background-size: 250%;
+    cursor: pointer;
+    transition: 1s;
+    
+
+}
+
+.btn1 {
+    background-image: linear-gradient(to left, rgb(77, 97, 161), rgb(221, 97, 14), rgb(77, 97, 161));
+    
+}
+
+.btn2 {
+    background-image: linear-gradient(to left, rgb(221, 97, 14), rgb(77, 97, 161), rgb(221, 97, 14));
+}
+
+.btn:hover {
+    background-position: right;
+}
+
+a {
+    text-decoration: none;
+}
